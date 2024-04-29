@@ -1,8 +1,8 @@
 name: Workflow for database management
 
 on:
-  schedule:
-    - cron: '0 */8 * * *' # Run every 8 hours
+  # schedule:
+  #  - cron: '0 */8 * * *' # Run every 8 hours
   push:
     branches: [ main ]
       
